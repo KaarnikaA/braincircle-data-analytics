@@ -6,9 +6,9 @@ This is an analyst's read of QuickCart's 2025 order data. Every number in this d
 
 | File | What it is |
 |---|---|
-| `notebook/quickcart_analysis.ipynb` | The full analysis. Cleaning, audit, and all required areas, with inline reasoning |
+| `notebook/quickcart_analysis.ipynb` | The full analysis. Cleaning, audit, and all required areas, with inline reasoning and Dashboard |
 | `data/quickcart_cleaned.csv` | The cleaned dataset, post audit |
-| `dashboard/` | Power BI dashboard |
+
 | `requirements.txt` | Python dependencies |
 
 ## 1. The Problem, As Given
