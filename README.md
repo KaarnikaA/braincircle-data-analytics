@@ -10,7 +10,6 @@ This is an analyst's read of QuickCart's 2025 order data. Every number in this d
 | `data/quickcart_cleaned.csv` | The cleaned dataset, post audit |
 | `dashboard/` | Power BI dashboard |
 | `requirements.txt` | Python dependencies |
-| `QuickCart.pdf` | Executive summary for leadership with brief answers and a detailed case study |
 
 ## 1. The Problem, As Given
 
@@ -133,3 +132,13 @@ The most common return reason overall is "Not as Expected" (412 cases), ahead of
 - The discount to profit relationship is a weak correlation (-0.055), not a proven cause. No causal claim is made from this analysis.
 - Returned orders (₹9,874,912 in net sales, ₹4,467,340 in profit) and cancelled orders (523, still carrying gross sales figures) remain inside the headline revenue and profit numbers used in this version of the analysis, and have not been separately excluded.
 
+## 8. Executive Summary
+QuickCart's 2025 order volume and revenue held steady through the year, with no major structural collapse or spike. But steady top-line numbers are hiding two real problems underneath.
+
+First, the business is spending its heaviest discounts on new customers (over half their orders sit in higher discount bands) without yet knowing if that spend is building a repeat customer base or just buying one-time volume. Discounting overall has only a weak relationship with profit margin (correlation of -0.055), so it isn't the dominant driver of profitability, but the new-customer discount pattern specifically is unproven spend until it's tracked against actual repeat behavior.
+
+Second, customer experience has two concrete, traceable weak points. Returns are most often driven by "Not as Expected," the single largest return reason in the data, and it shows up more in Paid Search and Affiliate orders than other channels, a signal worth checking against listing and ad accuracy. Separately, Tier 3 cities run meaningfully behind Tier 1 and Tier 2 on on-time delivery (53% vs roughly 60%), and that gap repeats across nearly every warehouse, pointing to a last-mile infrastructure issue rather than one facility's problem.
+
+Category economics are healthy but uneven: Electronics drives the largest share of total profit on high order value despite a lower margin percentage, while categories like Fashion and Home & Kitchen carry stronger margins but smaller order values, so they contribute less in absolute terms. Neither pattern is a problem, but the two categories shouldn't be judged by the same yardstick.
+
+Five actions are recommended, in priority order: test new-customer discount ROI against actual repeat rate, audit listing and marketing accuracy for Paid Search and Affiliate given the "Not as Expected" pattern, invest in Tier 3 last-mile delivery, investigate why Platinum-tier sellers show the highest return rate of any tier, and resolve a data inconsistency in how gross sales is calculated before it's used for any pricing decision. Full evidence for each is in Section 6.
