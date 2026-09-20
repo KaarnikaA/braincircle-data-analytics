@@ -116,13 +116,13 @@ The most common return reason overall is "Not as Expected" (412 cases), ahead of
 
 ## 6. Recommendations
 
-(To be finalized against the findings above, once discussed)
 
-1. ...
-2. ...
-3. ...
-4. ...
-5. ...
+
+1. Investigate "Not as Expected" returns as a listing or marketing accuracy problem, starting with Paid Search and Affiliate.
+2. Prioritize last-mile delivery investment in Tier 3 cities.
+3. Re-examine the assumption that Platinum-tier sellers are the safest bet, using return rate as the trigger.
+4. Resolve the gross sales data inconsistency before it's relied on for any pricing or reporting decision.
+5. Re-examine the assumption that Platinum-tier sellers are the safest bet, using return rate as the trigger.
 
 ## 7. Limitations & Assumptions
 
