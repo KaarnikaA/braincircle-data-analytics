@@ -132,6 +132,3 @@ The most common return reason overall is "Not as Expected" (412 cases), ahead of
 - The discount to profit relationship is a weak correlation (-0.055), not a proven cause. No causal claim is made from this analysis.
 - Returned orders (₹9,874,912 in net sales, ₹4,467,340 in profit) and cancelled orders (523, still carrying gross sales figures) remain inside the headline revenue and profit numbers used in this version of the analysis, and have not been separately excluded.
 
-## 8. Executive Summary
-
-(Short version for leadership, to be written after Section 6 is finalized)
