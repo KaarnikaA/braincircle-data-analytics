@@ -1,5 +1,5 @@
 # Braincircle-data-analytics challenge 2026
-# QuickCart 2025 Business Performance Review
+### QuickCart 2025 Business Performance Review
 
 This is an analyst's read of QuickCart's 2025 order data — where the money is coming from, where it's quietly leaking, and what's worth fixing first. It's built to be defensible: every number here traces back to a cell in the notebook, and every claim about "why" is flagged as a hypothesis unless the data actually proves it.
 
